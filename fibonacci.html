@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n = +prompt("Nhập n vào đây: ")
+        let f1 = 1;
+        let f2 = 1;
+        let fn;
+        let i = 3;
+
+            if(n==1){
+                alert(1);
+            }
+            if(n==2){
+                alert(1);
+            }
+            if(n>2){
+
+
+            while(i <= n){
+            fn = f1 + f2;
+            f1 = f2;
+            f2 = fn;
+            i++
+            }
+            document.write(fn);
+        
+            }
+        
+    </script>
+</body>
+</html>
